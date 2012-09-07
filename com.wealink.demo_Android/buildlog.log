@@ -1,0 +1,240 @@
+
+<DW>
+____________________
+set ANT_HOME=D:\PROGRA~1\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=D:\PROGRA~1\Android\ANDROI~1
+set JAVA_HOME=D:\PROGRA~1\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd D:\PROGRA~1\Android\ANDROI~1\PLATFO~2
+D:\PROGRA~1\Android\ANDROI~1\PLATFO~2\adb.exe devices
+____________________
+</DW>
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+List of devices attached 
+emulator-5556	device
+
+WARNING: no splash screen was specified in app settings. using default.
+正在为 Android 仿制种子应用程序
+<DW>
+____________________
+set ANT_HOME=D:\PROGRA~1\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=D:\PROGRA~1\Android\ANDROI~1
+set JAVA_HOME=D:\PROGRA~1\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd E:\APPTAR~1\COMWEA~1.DEM
+C:\WINDOWS\system32\cmd.exe /u /c D:\PROGRA~1\ADOBED~2.5\CONFIG~1\NATIVE~1\DWPHON~1\android\scripts\droidGap.bat "D:\Program Files\Adobe Dreamweaver CS5.5\Configuration\NativeAppFramework\DWPhoneGap\android\PhoneGapApp" "demo" com.wealink.demo 1.0 "D:\Program Files\Android\android-sdk"
+____________________
+</DW>
+EUsing latest target: 2
+Created project directory: E:\apptarget\com.wealink.demo_Android\com.wealink.demo
+Created directory E:\apptarget\com.wealink.demo_Android\com.wealink.demo\src\com\wealink\demo
+Added file E:\apptarget\com.wealink.demo_Android\com.wealink.demo\src\com\wealink\demo\DefaultActivity.java
+Created directory E:\apptarget\com.wealink.demo_Android\com.wealink.demo\res
+Created directory E:\apptarget\com.wealink.demo_Android\com.wealink.demo\bin
+Created directory E:\apptarget\com.wealink.demo_Android\com.wealink.demo\libs
+Created directory E:\apptarget\com.wealink.demo_Android\com.wealink.demo\res\values
+Added file E:\apptarget\com.wealink.demo_Android\com.wealink.demo\res\values\strings.xml
+Created directory E:\apptarget\com.wealink.demo_Android\com.wealink.demo\res\layout
+Added file E:\apptarget\com.wealink.demo_Android\com.wealink.demo\res\layout\main.xml
+Created directory E:\apptarget\com.wealink.demo_Android\com.wealink.demo\res\drawable-xhdpi
+Created directory E:\apptarget\com.wealink.demo_Android\com.wealink.demo\res\drawable-hdpi
+Created directory E:\apptarget\com.wealink.demo_Android\com.wealink.demo\res\drawable-mdpi
+Created directory E:\apptarget\com.wealink.demo_Android\com.wealink.demo\res\drawable-ldpi
+Added file E:\apptarget\com.wealink.demo_Android\com.wealink.demo\AndroidManifest.xml
+Added file E:\apptarget\com.wealink.demo_Android\com.wealink.demo\build.xml
+Added file E:\apptarget\com.wealink.demo_Android\com.wealink.demo\proguard-project.txt
+CLONE SUCCESSFUL
+
+<DW>
+____________________
+set ANT_HOME=D:\PROGRA~1\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=D:\PROGRA~1\Android\ANDROI~1
+set JAVA_HOME=D:\PROGRA~1\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd E:\APPTAR~1\COMWEA~1.DEM
+C:\WINDOWS\system32\cmd.exe /u /c D:\PROGRA~1\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1\bin\ant.bat debug
+____________________
+</DW>
+Buildfile: E:\APPTAR~1\COMWEA~1.DEM\build.xml
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 20.0.3
+ [checkenv] Installed at D:\Program Files\Android\android-sdk
+
+-setup:
+     [echo] Project Name: demo
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-build-setup:
+     [echo] Resolving Build Target for demo...
+[gettarget] Project Target:   Google APIs
+[gettarget] Vendor:           Google Inc.
+[gettarget] Platform Version: 4.1
+[gettarget] API level:        16
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: E:\APPTAR~1\COMWEA~1.DEM\bin\res
+    [mkdir] Created dir: E:\APPTAR~1\COMWEA~1.DEM\gen
+    [mkdir] Created dir: E:\APPTAR~1\COMWEA~1.DEM\bin\classes
+     [echo] ----------
+     [echo] Resolving Dependencies for demo...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+[dependency] API<=15: Adding annotations.jar to the classpath.
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+   [subant] No sub-builds to iterate on
+
+-pre-build:
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+[renderscript] No RenderScript files to compile.
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 3 source files to E:\APPTAR~1\COMWEA~1.DEM\bin\classes
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] Converting compiled files and external libraries into E:\APPTAR~1\COMWEA~1.DEM\bin\classes.dex...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: E:\APPTAR~1\COMWEA~1.DEM\res
+   [crunch] To destination dir: E:\APPTAR~1\COMWEA~1.DEM\bin\res
+   [crunch] Processing image to cache: E:\APPTAR~1\COMWEA~1.DEM\res\drawable-hdpi\ic_launcher.png => E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-hdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-hdpi\ic_launcher.png: 87% size of source)
+   [crunch] Processing image to cache: E:\APPTAR~1\COMWEA~1.DEM\res\drawable-hdpi\icon.png => E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-hdpi\icon.png
+   [crunch]   (processed image to cache entry E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-hdpi\icon.png: 63% size of source)
+   [crunch] Processing image to cache: E:\APPTAR~1\COMWEA~1.DEM\res\drawable-hdpi\splash.png => E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-hdpi\splash.png
+   [crunch]   (processed image to cache entry E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-hdpi\splash.png: 34% size of source)
+   [crunch] Processing image to cache: E:\APPTAR~1\COMWEA~1.DEM\res\drawable-ldpi\ic_launcher.png => E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-ldpi\ic_launcher.png
+   [crunch]   (processed image to cache entry E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-ldpi\ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: E:\APPTAR~1\COMWEA~1.DEM\res\drawable-ldpi\icon.png => E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-ldpi\icon.png
+   [crunch]   (processed image to cache entry E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-ldpi\icon.png: 63% size of source)
+   [crunch] Processing image to cache: E:\APPTAR~1\COMWEA~1.DEM\res\drawable-ldpi\splash.png => E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-ldpi\splash.png
+   [crunch]   (processed image to cache entry E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-ldpi\splash.png: 34% size of source)
+   [crunch] Processing image to cache: E:\APPTAR~1\COMWEA~1.DEM\res\drawable-mdpi\ic_launcher.png => E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-mdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-mdpi\ic_launcher.png: 78% size of source)
+   [crunch] Processing image to cache: E:\APPTAR~1\COMWEA~1.DEM\res\drawable-mdpi\icon.png => E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-mdpi\icon.png
+   [crunch]   (processed image to cache entry E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-mdpi\icon.png: 63% size of source)
+   [crunch] Processing image to cache: E:\APPTAR~1\COMWEA~1.DEM\res\drawable-mdpi\splash.png => E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-mdpi\splash.png
+   [crunch]   (processed image to cache entry E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-mdpi\splash.png: 34% size of source)
+   [crunch] Processing image to cache: E:\APPTAR~1\COMWEA~1.DEM\res\drawable-xhdpi\ic_launcher.png => E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-xhdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry E:\APPTAR~1\COMWEA~1.DEM\bin\res\drawable-xhdpi\ic_launcher.png: 85% size of source)
+   [crunch] Crunched 10 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+     [aapt] Warning: AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating demo-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: E:\APPTAR~1\COMWEA~1.DEM\bin\demo-debug.apk
+[propertyfile] Creating new property file: E:\APPTAR~1\COMWEA~1.DEM\bin\build.prop
+[propertyfile] Updating property file: E:\APPTAR~1\COMWEA~1.DEM\bin\build.prop
+[propertyfile] Updating property file: E:\APPTAR~1\COMWEA~1.DEM\bin\build.prop
+[propertyfile] Updating property file: E:\APPTAR~1\COMWEA~1.DEM\bin\build.prop
+
+-post-build:
+
+debug:
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
+正在将应用程序安装到 Android 模拟器中
+<DW>
+____________________
+set ANT_HOME=D:\PROGRA~1\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=D:\PROGRA~1\Android\ANDROI~1
+set JAVA_HOME=D:\PROGRA~1\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd E:\APPTAR~1\COMWEA~1.DEM
+C:\WINDOWS\system32\cmd.exe /u /c D:\PROGRA~1\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1\bin\ant.bat install
+____________________
+</DW>
+Buildfile: E:\APPTAR~1\COMWEA~1.DEM\build.xml
+
+install:
+     [echo] Install file not specified.
+     [echo] 
+     [echo] 'ant install' now requires the build target to be specified as well.
+     [echo] 
+     [echo] 
+     [echo]     ant debug install
+     [echo]     ant release install
+     [echo]     ant instrument install
+     [echo] This will build the given package and install it.
+     [echo] 
+     [echo] Alternatively, you can use
+     [echo]     ant installd
+     [echo]     ant installr
+     [echo]     ant installi
+     [echo]     ant installt
+     [echo] to only install an existing package (this will not rebuild the package.)
+
+BUILD FAILED
+D:\Program Files\Android\android-sdk\tools\ant\build.xml:1288: The following error occurred while executing this line:
+D:\Program Files\Android\android-sdk\tools\ant\build.xml:1355: No message
+
+Total time: 1 second
+正在 Android 模拟器中运行应用程序
+<DW>
+____________________
+set ANT_HOME=D:\PROGRA~1\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=D:\PROGRA~1\Android\ANDROI~1
+set JAVA_HOME=D:\PROGRA~1\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd D:\PROGRA~1\Android\ANDROI~1\PLATFO~2
+C:\WINDOWS\system32\cmd.exe /u /c D:\PROGRA~1\ADOBED~2.5\CONFIG~1\NATIVE~1\DWPHON~1\android\scripts\ANDROI~2.BAT com.wealink.demo D:\PROGRA~1\Android\ANDROI~1
+____________________
+</DW>
+Starting: Intent { act=android.intent.action.MAIN cmp=com.wealink.demo/.DefaultActivity }
+
+Error type 3
+
+Error: Activity class {com.wealink.demo/com.wealink.demo.DefaultActivity} does not exist.
+
+
+<DW>
+____________________
+set ANT_HOME=D:\PROGRA~1\ADOBED~2.5\CONFIG~1\NATIVE~1\APACHE~1
+set ANDROID_HOME=D:\PROGRA~1\Android\ANDROI~1
+set JAVA_HOME=D:\PROGRA~1\ADOBED~2.5\JDK
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd D:\PROGRA~1\Android\ANDROI~1\PLATFO~2
+D:\PROGRA~1\Android\ANDROI~1\PLATFO~2\adb.exe kill-server
+____________________
+</DW>

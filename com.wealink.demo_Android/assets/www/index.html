@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web 应用程序</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="jquery-mobile/jquery.mobile-1.0a3.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.5.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
+<script src="phonegap.js" type="text/javascript">
+</script>
+</head> 
+<body> 
+<div data-role="page" id="home">
+  
+  <header data-role="header" data-theme="a"> 
+    <h1 class="logo">demo</h1> 
+  </header> 
+  
+<div data-role="content"> 
+
+	<form action="#" method="get" id="add_event_form">    
+		<div data-role="fieldcontain">
+			<input type="text" name="add_event" id="add_event" value="" x-webkit-speech /> 
+			<button type="submit" data-theme="a">Submit</button>
+		</div>
+	</form>
+	
+    <div class="events_list" id="today">
+		<h3 class="show_event ui-collapsible-heading ui-collapsible-heading-collapsed">
+			<a class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-corner-top ui-corner-bottom ui-btn-up-c" href="#" data-theme="c">
+				<span class="ui-btn-inner ui-corner-top ui-corner-bottom" aria-hidden="true">
+					<span class="ui-btn-text">
+					今天
+					</span>
+					<span class="ui-icon ui-icon-shadow ui-icon-plus"></span>
+				</span>
+			</a>
+		</h3>
+		
+    </div>
+    
+    <div class="events_list" id="tomorrow">
+		<h3 class="show_event ui-collapsible-heading ui-collapsible-heading-collapsed">
+			<a class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-corner-top ui-corner-bottom ui-btn-up-c" href="#" data-theme="c">
+				<span class="ui-btn-inner ui-corner-top ui-corner-bottom" aria-hidden="true">
+					<span class="ui-btn-text">
+					明天
+					</span>
+					<span class="ui-icon ui-icon-shadow ui-icon-plus"></span>
+				</span>
+			</a>
+		</h3>
+    </div>
+
+    <div class="events_list" id="week">
+		<h3 class="show_event ui-collapsible-heading ui-collapsible-heading-collapsed">
+			<a class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-left ui-corner-top ui-corner-bottom ui-btn-up-c" href="#" data-theme="c">
+				<span class="ui-btn-inner ui-corner-top ui-corner-bottom" aria-hidden="true">
+					<span class="ui-btn-text">
+					本周
+					</span>
+					<span class="ui-icon ui-icon-shadow ui-icon-plus"></span>
+				</span>
+			</a>
+		</h3>
+    </div>
+
+	<div id="other">
+		<p><a href="#done" data-role="button" data-icon="check" data-theme="a">已完成</a></p>
+		<p><a href="#setting" data-role="button" data-icon="grid" data-theme="e">设置</a></p>
+	</div>
+
+</div>
+
+<footer class="footer">
+	<ul>
+		<li>Practice Makes Perfect</li>
+	</ul>
+</footer>
+
+</div><!-- 结束主页 -->
+
+<!-- 已完成的事 -->
+<div data-role="page" id="done">
+
+<header data-role="header" data-theme="a">
+	<a data-rel="back" href="#home">返回</a>
+	<h1>已完成的事项</h1>
+</header>
+
+<div data-role="content">
+	<ul data-role="listview" data-inset="true" id="done_events">
+		<li class="eventItem ui-li ui-li-static ui-body-c ui-corner-top ui-corner-bottom" id="done_event_id"><span class="function_group_show"><span class="ui-btn-text">Example</span></span><span><a class="del_event" href="#">Delete</a></span></li>
+		<li class="example eventItem ui-li ui-li-static ui-body-c ui-corner-top ui-corner-bottom" id="done_event_id"><span class="function_group_show"><span class="ui-btn-text">Example</span></span><span><a class="del_event" href="#">Delete</a></span></li>
+		<li class="eventItem ui-li ui-li-static ui-body-c ui-corner-top ui-corner-bottom" id="done_event_id"><span class="function_group_show"><span class="ui-btn-text">Example</span></span><span><a class="del_event" href="#">Delete</a></span></li>
+	</ul>
+</div>
+
+</div><!-- 结束已完成的事 -->
+	
+	
+
+
+<!-- 设置页面 -->	
+
+<div data-role="page" id="setting">
+
+<header data-role="header" data-theme="a">
+	<a data-rel="back" href="#home">返回</a>
+	<h1>设置</h1>
+</header> 
+	  
+<div data-role="content">
+
+	<label name="select-choice-0" class="select">排序方式(刷新有效)</label>
+	<select data-native-menu="false" name="select-choice-0" id="select-choice-1">
+		<option value="0">日期</option>
+		<option value="1">重要性</option>
+	</select>
+    
+</div>
+  
+</div><!-- 结束设置页面 -->
+</body>
+</html>
